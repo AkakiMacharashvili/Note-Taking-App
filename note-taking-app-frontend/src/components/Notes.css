@@ -1,0 +1,56 @@
+.notes-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.notes-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #343a40;
+}
+
+.notes-subtitle {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #6c757d;
+}
+
+.notes-list {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.notes-list th,
+.notes-list td {
+    border: 1px solid #dee2e6;
+    padding: 8px;
+    text-align: left;
+}
+
+.notes-list th {
+    background-color: #f1f3f5;
+    color: #495057;
+}
+
+.notes-list tr:nth-child(even) {
+    background-color: #f8f9fa;
+}
+
+.note-actions {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.note-actions svg {
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    fill: #495057;
+}

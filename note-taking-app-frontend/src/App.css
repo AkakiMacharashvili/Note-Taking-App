@@ -1,0 +1,46 @@
+.App {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 400px;
+}
+
+label {
+  font-size: 16px;
+}
+
+input, textarea, select, button {
+  padding: 8px;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+button {
+  cursor: pointer;
+}
+
+.create-note, .sign-up {
+  margin-bottom: 40px;
+}
+
+button[type="button"] {
+  background-color: #f44336;
+  color: white;
+  border: none;
+}
+
+button[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+}
